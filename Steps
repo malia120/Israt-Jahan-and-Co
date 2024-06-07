@@ -16,3 +16,9 @@ Step By step what i have done to create this website.
     5f) I then wrap the app in Router, which allows routing, and then have it be wrapped in routes
     5g) i then define the actual route or path, where when the path is '/', which is the root path, the Home component is rendered. 
 6) i then updated the Home page, to ensure that home page is successfully rendered, by returning the heading "Home page".
+7) i also added an about page, the exam same way as the home page
+
+Errors I have experienced:
+1) whenever i try running my website, by doing npm start, it keeps saying "node_module/.bin" not recognised.
+    i had fixed this error message by renaming the folder from Israt Jahan & Co to Israt Jahan co
+
