@@ -3,22 +3,27 @@ Step By step what i have done to create this website.
 2) I deleted the files and code i dont need
 3) created pages 
 4) created Home page
-    4a) imported react from the react library
-    4b) created a functional component named home
-    4c) exported Home component, to make it accessible everywhere
+    imported react from the react library
+    created a functional component named home
+    exported Home component, to make it accessible everywhere
 5) i then updated my App.js page, by removing all the code
-    5a) i then imported react from react library
-    5b) i then did npm install react-router-dom, which has many functions, like display the web pages and allow users to nagivate through the pages
-    5c) created functional component called App, and the App component as default, making it accessible everywhere.
-    5d) imported the react-router-dom, especially Browser Router as Router, Routes and Route. This keeps UI in sync with the URL.
-    5e) i then imported the Home page by:
-        5ei) importing the home component by doing 'import home', and then located where i imported the component, in this case, "from './Pages/Home';"
-    5f) I then wrap the app in Router, which allows routing, and then have it be wrapped in routes
-    5g) i then define the actual route or path, where when the path is '/', which is the root path, the Home component is rendered. 
+    i then imported react from react library
+    i then did npm install react-router-dom, which has many functions, like display the web pages and allow users to nagivate through the pages
+    created functional component called App, and the App component as default, making it accessible everywhere.
+    imported the react-router-dom, especially Browser Router as Router, Routes and Route. This keeps UI in sync with the URL.
+    i then imported the Home page by:
+        importing the home component by doing 'import home', and then located where i imported the component, in this case, "from './Pages/Home';"
+    I then wrap the app in Router, which allows routing, and then have it be wrapped in routes
+    i then define the actual route or path, where when the path is '/', which is the root path, the Home component is rendered. 
 6) i then updated the Home page, to ensure that home page is successfully rendered, by returning the heading "Home page".
-7) i also added an about page, the exam same way as the home page
-
+7) i also added an about, services nad contact pages, the same way as the home page
+8) i then created a navigation component, where, i imported link from react-router-dom, as well as all the pages, Home, About, Services, Contact
+9) i then created a function called Navigation, and returned a wrapped links, under the class name "Navigation"
+10) i then created a Link, which is wrapped in a list,  where if the path is set as default (/), then it shows the hope page when the user first loads the website
+    equally, once the user clicks on the 'about' link, it redictes them to the about page, as the path is set as '/about'
+11) i then added the navigation componenent in App.jsx, which then displays the list of links on all pages.
 Errors I have experienced:
-1) whenever i try running my website, by doing npm start, it keeps saying "node_module/.bin" not recognised.
-    i had fixed this error message by renaming the folder from Israt Jahan & Co to Israt Jahan co
+1) whenever i try running my website, by doing npm start, it keeps saying "co/frontend/node_module/.bin" not recognised.
+    i had fixed this error message by renaming the folder from Israt Jahan & Co to Israt Jahan co, 
+        & interfers with the command-line and seperates it.
 
