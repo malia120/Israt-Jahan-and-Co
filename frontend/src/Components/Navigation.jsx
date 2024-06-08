@@ -14,7 +14,7 @@ function Navigation () {
         <img src={Logo} className="Logo" alt="Logo" />
         <div class="navigation">
             <li><Link to= '/'> <button>Home</button></Link></li>
-            <li><Link to= '/about'> <button> About</button></Link></li>
+            <li><Link to='/about#about-us'><button>About</button></Link></li>
             <li><Link to= '/contact'> <button>Contact</button></Link></li>
             <li><Link to= '/services'><button> Services</button></Link></li>
         </div>

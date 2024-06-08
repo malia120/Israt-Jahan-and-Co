@@ -1,10 +1,17 @@
-import React from 'react'
-import Navigation from '../Components/Navigation';
+import React, { useEffect } from 'react';
 
-function Home () {
+function Home() {
+    useEffect(() => {
+        const textElement = document.querySelector('.animated-text');
+        textElement.classList.add('animate');
+    }, []);
 
     return (
-    <h1> Home page </h1>
+        <div className="home-container">
+            <div className="grey-box">
+                <h1 className="animated-text">Welcome to the Home Page</h1>
+            </div>
+        </div>
     );
 }
 
