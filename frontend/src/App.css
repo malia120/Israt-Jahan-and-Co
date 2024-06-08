@@ -1,0 +1,58 @@
+:root {
+    --first-color: #98bed6;
+    --second-color: #325290;
+    --third-color: #050058;
+    --forth-color: #f2d780;
+    --body-color: #EDFAFF;
+    --text-color: #000000; 
+    --body-font: Arial, sans-serif; 
+    --button-bg: var(--first-color);
+    --button-hover-bg: var(--second-color);
+    --button-text-color: #fff;
+    box-sizing: border-box;
+}
+
+
+.Navbar {
+    width: 98vw;
+    height: 98vh;
+    background-image: linear-gradient(rgba(0,0,0,0), transparent), url(Images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    position: relative;
+}
+
+.Logo {
+    width: auto; 
+    height: 110px; 
+    position: absolute;
+    left: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
+
+.navigation li {
+    margin: 0 10px; 
+}
+
+button {
+    background-color: var(white);
+    color: var(--second-color);
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+
+    font-size: 18px; 
+    
+}
+
+button:hover {
+    background-color: var(--first-color);
+}
